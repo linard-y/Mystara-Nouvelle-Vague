@@ -1,0 +1,163 @@
+@font-face{font-family:'Open Sans';src:url('../fonts/OpenSans-Light.html')}
+
+@font-face {
+    font-family: 'diamonde';
+    src: url('../fonts/diamonde_personal_use-webfont.woff2') format('woff2'),
+         url('../fonts/diamonde_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family:'Open Sans',Helvetica,Arial;text-align:center;background-color:white;color:#444}ul{list-style-type:none;text-align:left}
+@media (min-width:900px){body{margin-left:200px;margin-right:200px;background-color:#BBB;text-align:center}}
+@media print{.no-print{display:none}}
+
+.content{min-height:600px}
+.content-body{text-align:left;margin:0 60px 0 0}
+.content-body img{margin:5px 20px 20px 20px;vertical-align:top}
+.content-body li{margin:5px 0 10px 0}
+.content-body li:before{content:'\f054';font-family:FontAwesome;font-size:0.7em;margin:0 5px 20px 0}
+.content-body .resume-photo{margin-top:-30px;margin-left:-30px;margin-right:30px;float:left}
+.content-body a{text-decoration:underline}
+
+.logo-area{margin:5px 0 0 20px;padding:0}
+.logo-text{font-size:40px;color:#808080;vertical-align:middle;margin:0}
+.logo-square{font-size:30px;font-weight:bold;align:center;vertical-align:middle;color:white;line-height:35px;margin:-43px 0 0 39px;border-radius:5px;-moz-border-radius:15px;background-color:#ffa810;height:35px;width:45px}
+.logo-subtext{font-family:diamonde; font-size:16px;align:left;margin:5px 0 0 0}
+.logo-text {text-transform:uppercase;
+    text-shadow: -4px  0   1px #000000, 
+                 -4px  4px 4px #000000,
+                 -4px -4px 4px #000000, 
+                  4px  0   1px #000000,
+                  4px -4px 4px #000000,
+                  4px  4px 4px #000000,
+                  0   -4px 1px #000000,
+                  4px -4px 4px #000000,
+                 -4px -4px 4px #000000,
+                  0    4px 1px #000000,
+                 -4px  4px 4px #000000,
+                  4px  4px 4px #000000;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family:Bernard MT Condensed; 
+    text-align:center;
+    padding: 2px 2px 2px 2px;
+    background: transparent;
+    width:auto;
+    float: none;}
+.logo-text a{text-decoration:none; color:#FFFFFF}	
+
+.slider{background-color:#172934}
+.slider img{max-width:100%;max-height:100%}
+
+a{color:#444}
+a:hover{color:#ffa810}
+
+.menu-area{margin:10px 0 0 0;background-color:white;border-style:none}
+
+.nav > li > a:hover,.nav > li > a:focus{text-decoration:none;background-color:white}
+
+.left-navigation .title{padding:0 0 20px 15px;text-transform:uppercase}
+.left-navigation .box{margin:20px 10px 20px 0;padding:0 15px 20px 15px;border-top:#BBB solid 1px;border-bottom:#BBB solid 1px}
+
+h1{font-size:30px;font-weight:bold;line-height:1.2em;padding:20px 0;margin-bottom:0;text-align:left}
+h2{font-size:20px;text-align:left;margin:25px 0 15px 0}
+h3{font-weight:300}
+
+/* ------------- hexagone -------------------*/
+.size12 {width: 12px; height: 12px; font-size: 12px;}
+.size16 {width: 16px; height: 16px; font-size: 16px;}
+.size24 {width: 24px; height: 24px; font-size: 24px;}
+.size32 {width: 32px; height: 32px; font-size: 32px;}
+.size48 {width: 48px; height: 48px; font-size: 48px;}
+.size64 { width: 64px; height: 64px; font-size: 64px;}
+.size96 { width: 96px; height: 96px; font-size: 96px;}
+.size128 { width: 128px; height: 128px; font-size: 128px;}
+
+.fill-default{fill:white}
+.fill-grey{fill:#272727}
+.fill-greylight{fill:#BBB}
+.fill-yellow{fill:#ffa810}
+.fill-blue{fill:#3883EB}
+.fill-green{fill:#3bc492}
+.fill-red{fill:#EB2D40}
+
+.stroke-default{stroke:white}
+.stroke-grey{stroke:#272727}
+.stroke-greylight{stroke:#BBB}
+.stroke-yellow{stroke:#ffa810}
+.stroke-blue{stroke:#3883EB}
+.stroke-green{stroke:#3bc492}
+.stroke-red{stroke:#EB2D40}
+
+.bg-default{background-color:white}
+.bg-grey{background-color:#272727}
+.bg-greylight{background-color:#BBB}
+.bg-yellow{background-color:#ffa810}
+.bg-blue{background-color:#3883EB}
+.bg-green{background-color:#3bc492}
+.bg-red{background-color:#EB2D40}
+
+.hexicon-container {
+  margin:-30px 0 0 0;
+}
+
+.hexicon {
+   stroke-width: 2%;
+   stroke-linejoin: round;
+   vertical-align: top;
+   z-index:3;
+   margin: auto;
+}
+
+
+.icon {
+  fill: #BBB;
+  stroke: #BBB;
+  stroke-width: 2%;
+  stroke-linejoin: round;
+  margin:0 20px 0 -30px;
+}
+
+
+
+
+.title{text-align:left;font-size:1.3em;font-weight:bold}
+.subtitle{text-align:left;padding:10px 0 20px 0;font-size:0.9em}
+.services{padding-bottom:10px;background-color:#333;color:white}
+.services a{font-weight:bold}
+.services .title{text-align:center}
+.services-darker{background-color:#272727}
+.more{position:absolute;bottom:10px;right:20px;width:164px;padding:20px 0 10px 0;margin:10px 0;font-weight:bold;font-size:0.9em}
+.bring-to-front{z-index:10}
+.bg-services{background-color:#333}
+
+#servicelist{background-color:#333;margin:0}
+#servicelist .title{margin:0 0 15px 0;font-size:1.3em;font-weight:bold;}
+#servicelist .description{margin:0 0 60px 0;padding:10px 0 20px 0;font-size:0.9em;color:#e6e6e6}
+#servicelist a{color:white;cursor:pointer}
+
+.section .title{text-align:center}
+.section.border-bottom{border-bottom-style:solid;border-width:1px;border-color:#BBB}
+.section.bottom-triangle:before{position:relative;width:0;height:0;border-style:solid;border-width:8px 8px 0 8px;border-color:#FFF transparent transparent transparent;z-index:5;content:'';top:91px}
+.section.bottom-triangle:after{position:relative;margin:240px 0 0 0;width:0;height:0;border-style:solid;border-width:10px 10px 0 10px;border-color:#BBB transparent transparent transparent;content:'';top:29px;z-index:4}
+
+.skill{margin:60px 10px 10px 0;height:200px}
+.skill .icon{margin:5px 20px 0 0;display:inline;float:left;width:20%;height:100%}
+.skill .icon .circle{border-radius:50%;width:50px;height:50px}
+.skill .icon .circle i{vertical-align:middle;line-height:50px}
+.skill .title{padding:0 0 10px 0;display:inline;float:right;font-size:1.3em;font-weight:bold;text-align:left;width:70%}
+.skill .description{padding:0 5px 10px 0;display:inline;float:right;font-size:0.9em;text-align:left;width:90%}
+
+.footer{background-color:#333;margin:40px 0 0 0;padding:20px 0;color:#BBB}
+.footer a{color:inherit}
+.footer .title{color:white;text-transform:uppercase;padding:0 0 10px 0;margin-bottom:25px;border-style:solid;border-width:1px;border-color:transparent transparent #6e6e6e transparent}
+.footer .box{padding:0 20px}
+.footer .box-content{font-size:0.9em;text-align:left;padding:0 20px 0 0}
+
+.box li{margin:0 0 5px 5px;padding:0}
+.box-content li:first-child{padding-top:0}
+
+
+.social-buttons{margin-top:-10px;font-size:0.5em;text-align:left}
