@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'diamonde';
+    src: url('./fonts/diamonde_personal_use-webfont.woff2') format('woff2'),
+         url('./fonts/diamonde_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family:'Open Sans',Helvetica,Arial;
+	text-align:left;
+	color:#444;
+	background-color:#BBB;
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+a{color:#444}
+a:hover{color:#ffa810}
+
+
+
+.page {
+	background-color:white;
+	width: 1000px;
+}
+#borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(border.png) 30 round;
+}
+
+#borderimg2 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(border.png) 30 stretch;
+}
+
+header {
+	background-color:#172934;
+	color:white;
+	display:inline-block;
+	position: relative
+}
+
+aside {
+	background-color:#172934;
+	color:white;
+}
+
+footer {
+	background-color:#172934;
+	color:white;
+}
+
+
+nav {
+	float:right;
+    display:inline-block;
+    list-style:none;
+	vertical-align:middle;
+	margin: -40px 0 -20px 0;
+	z-index:400;
+	position: relative;
+}
+
+nav li{
+    display: inline-block;
+	text-align:right;
+	line-height:30px;
+	margin:0;
+	padding:0 8px 0 8px;
+}
+
+nav li a{color:#172934}
+
+
+header .lang{
+	position: fixed;
+	top:18px;
+	display: inline-block;
+	text-align:right;
+}
+
+header .lang a{
+	padding:0 8px 0 8px;
+	font-size:12px;
+}
+
+
+header .bandeau {
+margin-bottom : -4px;
+margin-right : -1px
+}
+
+header .logo{   margin:15px 26px 0 26px;
+         padding:0;
+		 display:inline-block;
+		 vertical-align:top;
+}
+.logo-subtext{font-family:diamonde; font-size:24px;text-align:center;margin:5px 0 0 0; vertical-align:middle;}
+.logo-text {text-transform:uppercase;
+    text-shadow: -4px  0   1px #000000, 
+                 -4px  4px 4px #000000,
+                 -4px -4px 4px #000000, 
+                  4px  0   1px #000000,
+                  4px -4px 4px #000000,
+                  4px  4px 4px #000000,
+                  0   -4px 1px #000000,
+                  4px -4px 4px #000000,
+                 -4px -4px 4px #000000,
+                  0    4px 1px #000000,
+                 -4px  4px 4px #000000,
+                  4px  4px 4px #000000;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family:Bernard MT Condensed; 
+    text-align:center;
+    padding: 2px 2px 2px 2px;
+	margin:0}
+.logo-text a{text-decoration:none; color:#FFFFFF}
+
+
+/* ------------- hexagone -------------------*/
+.size12 {width: 12px; height: 12px; font-size: 12px;}
+.size16 {width: 16px; height: 16px; font-size: 16px;}
+.size24 {width: 24px; height: 24px; font-size: 24px;}
+.size32 {width: 32px; height: 32px; font-size: 32px;}
+.size48 {width: 48px; height: 48px; font-size: 48px;}
+.size64 { width: 64px; height: 64px; font-size: 64px;}
+.size96 { width: 96px; height: 96px; font-size: 96px;}
+.size128 { width: 128px; height: 128px; font-size: 128px;}
+
+.fill-default{fill:white}
+.fill-grey{fill:#272727}
+.fill-greylight{fill:#BBB}
+.fill-yellow{fill:#ffa810}
+.fill-blue{fill:#3883EB}
+.fill-green{fill:#3bc492}
+.fill-red{fill:#EB2D40}
+
+.stroke-default{stroke:white}
+.stroke-grey{stroke:#272727}
+.stroke-greylight{stroke:#BBB}
+.stroke-yellow{stroke:#ffa810}
+.stroke-blue{stroke:#3883EB}
+.stroke-green{stroke:#3bc492}
+.stroke-red{stroke:#EB2D40}
+
+.bg-default{background-color:white}
+.bg-grey{background-color:#272727}
+.bg-greylight{background-color:#BBB}
+.bg-yellow{background-color:#ffa810}
+.bg-blue{background-color:#3883EB}
+.bg-green{background-color:#3bc492}
+.bg-red{background-color:#EB2D40}
+
+.hexicon-container {
+  margin:-30px 0 0 0;
+}
+
+.hexicon {
+   stroke-width: 2%;
+   stroke-linejoin: round;
+   vertical-align: top;
+   z-index:3;
+   margin: auto;
+}
+
+
+.icon {
+  fill: #BBB;
+  stroke: #BBB;
+  stroke-width: 2%;
+  stroke-linejoin: round;
+  margin:0 20px 0 -30px;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+h6 {
+  font-size: 0.6rem;
+}
+
+p {
+  font-size: .8rem;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.font-light {
+  font-weight: 200;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0;
+}
+
+.servicelist{background-color:#333;margin:0;color:#e6e6e6}
+.service {height:266px;text-align: right;}
+.service h3 {margin:10px 0 0 0;text-align: center;}
+.service p {padding:8px;margin:0 0 20px 0;text-align: center;font-weight: 200;}
+.service a {color:white;cursor:pointer;font-weight: bold;}
+
+.col-1 {
+  width: 8.333%;
+}
+
+.col-2 {
+  width: 16.666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333%;
+}
+
+.col-5 {
+  width: 41.666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333%;
+}
+
+.col-8 {
+  width: 66.666%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 84.333%;
+}
+
+.col-11 {
+  width: 92.666%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+article {
+	background-color:white;
+	color:black;
+}
+article .title{text-align: center;border-bottom-style:solid;border-width:1px;border-color:#BBB}
+article .title:before{position:relative;width:0;height:0;border-style:solid;border-width:8px 8px 0 8px;border-color:#FFF transparent transparent transparent;z-index:5;content:'';top:91px}
+article .title:after{position:relative;margin:240px 0 0 0;width:0;height:0;border-style:solid;border-width:10px 10px 0 10px;border-color:#BBB transparent transparent transparent;content:'';top:29px;z-index:4}
+
+article .section{padding:0 20px 0 20px;}
